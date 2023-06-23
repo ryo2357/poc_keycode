@@ -1,31 +1,18 @@
 use std::fs::File;
-fn main() {
-    parse_sample().unwrap();
-}
-
-fn read_sample() -> anyhow::Result<()> {
-    let file_path = "data/test.csv";
-    let file = File::open(file_path)?;
-    let mut rdr = csv::Reader::from_reader(file);
-    // それぞれのレコード上をループする
-    for result in rdr.records().skip(2) {
-        let record = result?;
-        println!("{:?}", record);
-        println!("{:?}", &record[2]);
-    }
-    Ok(())
-}
-
-fn parse_sample() -> anyhow::Result<()> {
-    let file_path = "data/test.csv";
-    let file = File::open(file_path)?;
-    let mut rdr = csv::Reader::from_reader(file);
+use std::io::Write;
+fn main() -> anyhow::Result<()> {
+    let file_path = "data/code_csv.csv";
+    let csv_file = File::open(file_path)?;
+    let mut rdr = csv::Reader::from_reader(csv_file);
+    let output_path = "output/keycode.rs";
+    let mut file = File::create(output_path).unwrap();
     // それぞれのレコード上をループする
     for result in rdr.records().skip(2) {
         let record: csv::StringRecord = result?;
         let record_struct = Record_struct::parse(record)?;
         // println!("{:?}", record);
-        println!("{:?}", record_struct);
+        // println!("{:?}", record_struct.make_line());
+        writeln!(file, "{}", record_struct.make_line()).unwrap();
     }
     Ok(())
 }
@@ -46,5 +33,13 @@ impl Record_struct {
             usage_name,
             key_name,
         })
+    }
+
+    fn make_line(&self) -> String {
+        let line = format!(
+            "pub const KEY_{}: u8 = {}; // {}",
+            self.key_name, self.usage_id, self.usage_name
+        );
+        line
     }
 }

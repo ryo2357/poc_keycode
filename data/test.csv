@@ -1,0 +1,8 @@
+Usage ID,,Usage Name,Scancode (Set 1),,diff,Key,,,,,
+dec,hex,,MS Ref.,hid.dll,,ANSI,,ISO (typical),,JIS,
+,,,,,,base,shift,base,shift,base,shift
+31,1F,Keyboard 2 and @,3,3,,2,@,2,"""",2,@
+32,20,Keyboard 3 and #,4,4,,3,#,3,?,3,#
+33,21,Keyboard 4 and $,5,5,,4,$,4,$,4,$
+34,22,Keyboard 5 and %,6,6,,5,%,5,%,5,%
+35,23,Keyboard 6 and ^,7,7,,6,^,6,^,6,^

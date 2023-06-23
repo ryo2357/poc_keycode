@@ -2,11 +2,12 @@
 name = "poc_keycode"
 version = "0.1.0"
 edition = "2021"
-default-run = "parse_csv"
+default-run = "make_rust_comment"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 anyhow = "1.0.71"
 csv = "1.2.2"
-serde = "1.0.164"
+serde = { version = "1.0.164", features = ["derive"] }
+serde_derive = "1.0.164"
