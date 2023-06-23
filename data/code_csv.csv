@@ -1,0 +1,235 @@
+Usage ID,,Usage Name,Scancode (Set 1),,diff,Key,,,,,
+dec,hex,,MS Ref.,hid.dll,,ANSI,,ISO (typical),,JIS,
+,,,,,,base,shift,base,shift,base,shift
+0,0,Reserved (no event indicated),None,FF,,NA,,NA,,NA,
+1,1,Keyboard ErrorRollOver,FF,FF,,NA,,NA,,NA,
+2,2,Keyboard POSTFail,FC,FF,?,NA,,NA,,NA,
+3,3,Keyboard ErrorUndefined,UNASSIGNED,FF,,NA,,NA,,NA,
+4,4,Keyboard a and A,1E,1E,,a,A,a,A,a,A
+5,5,Keyboard b and B,30,30,,b,B,b,B,b,B
+6,6,Keyboard c and C,2E,2E,,c,C,c,C,c,C
+7,7,Keyboard d and D,20,20,,d,D,d,D,d,D
+8,8,Keyboard e and E,12,12,,e,E,e,E,e,E
+9,9,Keyboard f and F,21,21,,f,F,f,F,f,F
+10,0A,Keyboard g and G,22,22,,g,G,g,G,g,G
+11,0B,Keyboard h and H,23,23,,h,H,h,H,h,H
+12,0C,Keyboard i and I,17,17,,i,I,i,I,i,I
+13,0D,Keyboard j and J,24,24,,j,J,j,J,j,J
+14,0E,Keyboard k and K,25,25,,k,K,k,K,k,K
+15,0F,Keyboard l and L,26,26,,l,L,l,L,l,L
+16,10,Keyboard m and M,32,32,,m,M,m,M,m,M
+17,11,Keyboard n and N,31,31,,n,N,n,N,n,N
+18,12,Keyboard o and O,18,18,,o,O,o,O,o,O
+19,13,Keyboard p and P,19,19,,p,P,p,P,p,P
+20,14,Keyboard q and Q,10,10,,q,Q,q,Q,q,Q
+21,15,Keyboard r and R,13,13,,r,R,r,R,r,R
+22,16,Keyboard s and S,1F,1F,,s,S,s,S,s,S
+23,17,Keyboard t and T,14,14,,t,T,t,T,t,T
+24,18,Keyboard u and U,16,16,,u,U,u,U,u,U
+25,19,Keyboard v and V,2F,2F,,v,V,v,V,v,V
+26,1A,Keyboard w and W,11,11,,w,W,w,W,w,W
+27,1B,Keyboard x and X,2D,2D,,x,X,x,X,x,X
+28,1C,Keyboard y and Y,15,15,,y,Y,y,Y,y,Y
+29,1D,Keyboard z and Z,2C,2C,,z,Z,z,Z,z,Z
+30,1E,Keyboard 1 and !,2,2,,1,!,1,!,1,!
+31,1F,Keyboard 2 and @,3,3,,2,@,2,"""",2,@
+32,20,Keyboard 3 and #,4,4,,3,#,3,?,3,#
+33,21,Keyboard 4 and $,5,5,,4,$,4,$,4,$
+34,22,Keyboard 5 and %,6,6,,5,%,5,%,5,%
+35,23,Keyboard 6 and ^,7,7,,6,^,6,^,6,^
+36,24,Keyboard 7 and &,8,8,,7,&,7,&,7,&
+37,25,Keyboard 8 and *,9,9,,8,*,8,*,8,*
+38,26,Keyboard 9 and (,0A,0A,,9,(,9,(,9,(
+39,27,Keyboard 0 and ),0B,0B,,0,),0,),0,)
+40,28,Keyboard Return (ENTER),1C,1C,,Enter,,Enter,,Enter,
+41,29,Keyboard ESCAPE,1,1,,Escape,,Escape,,Escape,
+42,2A,Keyboard DELETE (Backspace),0E,0E,,Backspace,,Backspace,,Backspace,
+43,2B,Keyboard Tab,0F,0F,,Tab,,Tab,,Tab,
+44,2C,Keyboard Spacebar,39,39,,Spacebar,,Spacebar,,Spacebar,
+45,2D,Keyboard - and (underscore),0C,0C,,-,_,-,_,-,=
+46,2E,Keyboard = and +,0D,0D,,=,+,=,+,^,~
+47,2F,Keyboard [ and {,1A,1A,,[,{,[,{,@,`
+48,30,Keyboard ] and },1B,1B,,],},],},[,{
+49,31,Keyboard \ and |,2B,2B,,\,|,NA,,NA,
+50,32,Keyboard Non-US # and ~,2B,2B,,NA,,#,~,],}
+51,33,Keyboard ; and :,27,27,,;,:,;,:,;,+
+52,34,"Keyboard ' and """,28,28,,',"""",',@,:,*
+53,35,Keyboard Grave Accent and Tilde,29,29,,`,~,`,?,Hankaku / Zenkaku,
+54,36,"Keyboard , and <",33,33,,",",<,",",<,",",<
+55,37,Keyboard . and >,34,34,,.,>,.,>,.,>
+56,38,Keyboard / and ?,35,35,,/,?,/,?,/,?
+57,39,Keyboard Caps Lock,3A,F1 08,?,Caps Lock,,Caps Lock,,Eisu / Caps Lock,
+58,3A,Keyboard F1,3B,3B,,F1,,F1,,F1,
+59,3B,Keyboard F2,3C,3C,,F2,,F2,,F2,
+60,3C,Keyboard F3,3D,3D,,F3,,F3,,F3,
+61,3D,Keyboard F4,3E,3E,,F4,,F4,,F4,
+62,3E,Keyboard F5,3F,3F,,F5,,F5,,F5,
+63,3F,Keyboard F6,40,40,,F6,,F6,,F6,
+64,40,Keyboard F7,41,41,,F7,,F7,,F7,
+65,41,Keyboard F8,42,42,,F8,,F8,,F8,
+66,42,Keyboard F9,43,43,,F9,,F9,,F9,
+67,43,Keyboard F10,44,44,,F10,,F10,,F10,
+68,44,Keyboard F11,57,57,,F11,,F11,,F11,
+69,45,Keyboard F12,58,58,,F12,,F12,,F12,
+70,46,Keyboard PrintScreen,E0 37,F3,?,PrintScreen,,PrintScreen,,PrintScreen,
+71,47,Keyboard Scroll Lock,46,F1 09,?,Scroll Lock,,Scroll Lock,,Scroll Lock,
+72,48,Keyboard Pause,E1 1D 45,E1 1D 45,,Pause,,Pause,,Pause,
+73,49,Keyboard Insert,E0 52,F0,?,Insert,,Insert,,Insert,
+74,4A,Keyboard Home,E0 47,F0 01,?,Home,,Home,,Home,
+75,4B,Keyboard PageUp,E0 49,F0 02,?,PgUp,,PgUp,,PgUp,
+76,4C,Keyboard Delete Forward,E0 53,F0 03,?,Delete,,Delete,,Delete,
+77,4D,Keyboard End,E0 4F,F0 04,?,End,,End,,End,
+78,4E,Keyboard PageDown,E0 51,F0 05,?,PgDn,,PgDn,,PgDn,
+79,4F,Keyboard RightArrow,E0 4D,F0 06,?,Right,,Right,,Right,
+80,50,Keyboard LeftArrow,E0 4B,F0 07,?,Left,,Left,,Left,
+81,51,Keyboard DownArrow,E0 50,F0 08,?,Down,,Down,,Down,
+82,52,Keyboard UpArrow,E0 48,F0 09,?,Up,,Up,,Up,
+83,53,Keypad Num Lock and Clear,45,F1 0A,?,Num Lock,,Num Lock,,Num Lock,
+84,54,Keypad /,E0 35,E0 35,,KP-/,,KP-/,,KP-/,
+85,55,Keypad *,37,37,,KP-*,,KP-*,,KP-*,
+86,56,Keypad -,4A,4A,,KP-?,,KP-?,,KP-?,
+87,57,Keypad +,4E,4E,,KP-+,,KP-+,,KP-+,
+88,58,Keypad ENTER,E0 1C,E0 1C,,KP-Enter,,KP-Enter,,KP-Enter,
+89,59,Keypad 1 and End,4F,4F,,KP-1,End,KP-1,End,KP-1,End
+90,5A,Keypad 2 and Down Arrow,50,50,,KP-2,Down,KP-2,Down,KP-2,Down
+91,5B,Keypad 3 and PageDn,51,51,,KP-3,PgDn,KP-3,PgDn,KP-3,PgDn
+92,5C,Keypad 4 and Left Arrow,4B,4B,,KP-4,Left,KP-4,Left,KP-4,Left
+93,5D,Keypad 5,4C,4C,,KP-5,,KP-5,,KP-5,
+94,5E,Keypad 6 and Right Arrow,4D,4D,,KP-6,Right,KP-6,Right,KP-6,Right
+95,5F,Keypad 7 and Home,47,47,,KP-7,Home,KP-7,Home,KP-7,Home
+96,60,Keypad 8 and Up Arrow,48,48,,KP-8,Up,KP-8,Up,KP-8,Up
+97,61,Keypad 9 and PageUp,49,49,,KP-9,PgUp,KP-9,PgUp,KP-9,PgUp
+98,62,Keypad 0 and Insert,52,52,,KP-0,Insert,KP-0,Insert,KP-0,Insert
+99,63,Keypad . and Delete,53,53,,KP-.,Delete,KP-.,Delete,KP-.,Delete
+100,64,Keyboard Non-US \ and |,56,56,,NA,,\,|,NA,
+101,65,Keyboard Application,E0 5D,E0 5D,,App,,App,,App,
+102,66,Keyboard Power,E0 5E,E0 5E,,Power,,Power,,Power,
+103,67,Keypad =,59,59,,NA,,NA,,NA,
+104,68,Keyboard F13,64,64,,NA,,NA,,NA,
+105,69,Keyboard F14,65,65,,NA,,NA,,NA,
+106,6A,Keyboard F15,66,66,,NA,,NA,,NA,
+107,6B,Keyboard F16,67,67,,NA,,NA,,NA,
+108,6C,Keyboard F17,68,68,,NA,,NA,,NA,
+109,6D,Keyboard F18,69,69,,NA,,NA,,NA,
+110,6E,Keyboard F19,6A,6A,,NA,,NA,,NA,
+111,6F,Keyboard F20,6B,6B,,NA,,NA,,NA,
+112,70,Keyboard F21,6C,6C,,NA,,NA,,NA,
+113,71,Keyboard F22,6D,6D,,NA,,NA,,NA,
+114,72,Keyboard F23,6E,6E,,NA,,NA,,NA,
+115,73,Keyboard F24,76,76,,NA,,NA,,NA,
+116,74,Keyboard Execute,UNASSIGNED,FF,,NA,,NA,,NA,
+117,75,Keyboard Help,UNASSIGNED,FF,,NA,,NA,,NA,
+118,76,Keyboard Menu,UNASSIGNED,FF,,NA,,NA,,NA,
+119,77,Keyboard Select,UNASSIGNED,FF,,NA,,NA,,NA,
+120,78,Keyboard Stop,UNASSIGNED,FF,,NA,,NA,,NA,
+121,79,Keyboard Again,UNASSIGNED,FF,,NA,,NA,,NA,
+122,7A,Keyboard Undo,UNASSIGNED,FF,,NA,,NA,,NA,
+123,7B,Keyboard Cut,UNASSIGNED,FF,,NA,,NA,,NA,
+124,7C,Keyboard Copy,UNASSIGNED,FF,,NA,,NA,,NA,
+125,7D,Keyboard Paste,UNASSIGNED,FF,,NA,,NA,,NA,
+126,7E,Keyboard Find,UNASSIGNED,FF,,NA,,NA,,NA,
+127,7F,Keyboard Mute,UNASSIGNED,FF,,NA,,NA,,NA,
+128,80,Keyboard Volume Up,UNASSIGNED,FF,,NA,,NA,,NA,
+129,81,Keyboard Volume Down,UNASSIGNED,FF,,NA,,NA,,NA,
+130,82,Keyboard Locking Caps Lock,UNASSIGNED,FF,,NA,,NA,,NA,
+131,83,Keyboard Locking Numb Lock,UNASSIGNED,FF,,NA,,NA,,NA,
+132,84,Keyboard Locking Scroll Lock,UNASSIGNED,FF,,NA,,NA,,NA,
+133,85,Keypad Comma,7E,7E,,NA,,NA,,NA,
+134,86,Keypad Equal Sign,UNASSIGNED,FF,,NA,,NA,,NA,
+135,87,Keyboard International1,73,73,,NA,,NA,,\,_
+136,88,Keyboard International2,70,70,,NA,,NA,,Hira / Kana,
+137,89,Keyboard International3,7D,7D,,NA,,NA,,\,|
+138,8A,Keyboard International4,79,79,,NA,,NA,,Convert,
+139,8B,Keyboard International5,7B,7B,,NA,,NA,,NonConvert,
+140,8C,Keyboard International6,5C,5C,,NA,,NA,,NA,
+141,8D,Keyboard International7,UNASSIGNED,FF,,NA,,NA,,NA,
+142,8E,Keyboard International8,UNASSIGNED,FF,,NA,,NA,,NA,
+143,8F,Keyboard International9,UNASSIGNED,FF,,NA,,NA,,NA,
+144,90,Keyboard LANG1,F2,F2,,NA,,NA,,Kana (macOS),
+145,91,Keyboard LANG2,F1,F2 01,?,NA,,NA,,Eisu (macOS),
+146,92,Keyboard LANG3,78,78,,NA,,NA,,NA,
+147,93,Keyboard LANG4,77,77,,NA,,NA,,NA,
+148,94,Keyboard LANG5,76,76,,NA,,NA,,NA,
+149,95,Keyboard LANG6,UNASSIGNED,FF,,NA,,NA,,NA,
+150,96,Keyboard LANG7,UNASSIGNED,FF,,NA,,NA,,NA,
+151,97,Keyboard LANG8,UNASSIGNED,FF,,NA,,NA,,NA,
+152,98,Keyboard LANG9,UNASSIGNED,FF,,NA,,NA,,NA,
+153,99,Keyboard Alternate Erase,UNASSIGNED,FF,,NA,,NA,,NA,
+154,9A,Keyboard SysReq/Attention,UNASSIGNED,FF,,NA,,NA,,NA,
+155,9B,Keyboard Cancel,UNASSIGNED,FF,,NA,,NA,,NA,
+156,9C,Keyboard Clear,UNASSIGNED,FF,,NA,,NA,,NA,
+157,9D,Keyboard Prior,UNASSIGNED,FF,,NA,,NA,,NA,
+158,9E,Keyboard Return,UNASSIGNED,FF,,NA,,NA,,NA,
+159,9F,Keyboard Separator,UNASSIGNED,FF,,NA,,NA,,NA,
+160,A0,Keyboard Out,UNASSIGNED,FF,,NA,,NA,,NA,
+161,A1,Keyboard Oper,UNASSIGNED,FF,,NA,,NA,,NA,
+162,A2,Keyboard Clear/Again,UNASSIGNED,FF,,NA,,NA,,NA,
+163,A3,Keyboard CrSel/Props,UNASSIGNED,FF,,NA,,NA,,NA,
+164,A4,Keyboard ExSel,UNASSIGNED,FF,,NA,,NA,,NA,
+165,A5,Reserved,RESERVED,FF,,NA,,NA,,NA,
+166,A6,Reserved,RESERVED,FF,,NA,,NA,,NA,
+167,A7,Reserved,RESERVED,FF,,NA,,NA,,NA,
+168,A8,Reserved,RESERVED,FF,,NA,,NA,,NA,
+169,A9,Reserved,RESERVED,FF,,NA,,NA,,NA,
+170,AA,Reserved,RESERVED,FF,,NA,,NA,,NA,
+171,AB,Reserved,RESERVED,FF,,NA,,NA,,NA,
+172,AC,Reserved,RESERVED,FF,,NA,,NA,,NA,
+173,AD,Reserved,RESERVED,FF,,NA,,NA,,NA,
+174,AE,Reserved,RESERVED,FF,,NA,,NA,,NA,
+175,AF,Reserved,RESERVED,FF,,NA,,NA,,NA,
+176,B0,Keypad 00,RESERVED,FF,,NA,,NA,,NA,
+177,B1,Keypad 000,RESERVED,FF,,NA,,NA,,NA,
+178,B2,Thousands Separator,RESERVED,FF,,NA,,NA,,NA,
+179,B3,Decimal Separator,RESERVED,FF,,NA,,NA,,NA,
+180,B4,Currency Unit,RESERVED,FF,,NA,,NA,,NA,
+181,B5,Currency Sub-unit,RESERVED,FF,,NA,,NA,,NA,
+182,B6,Keypad (,RESERVED,FF,,NA,,NA,,NA,
+183,B7,Keypad ),RESERVED,FF,,NA,,NA,,NA,
+184,B8,Keypad {,RESERVED,FF,,NA,,NA,,NA,
+185,B9,Keypad },RESERVED,FF,,NA,,NA,,NA,
+186,BA,Keypad Tab,RESERVED,FF,,NA,,NA,,NA,
+187,BB,Keypad Backspace,RESERVED,FF,,NA,,NA,,NA,
+188,BC,Keypad A,RESERVED,FF,,NA,,NA,,NA,
+189,BD,Keypad B,RESERVED,FF,,NA,,NA,,NA,
+190,BE,Keypad C,RESERVED,FF,,NA,,NA,,NA,
+191,BF,Keypad D,RESERVED,FF,,NA,,NA,,NA,
+192,C0,Keypad E,RESERVED,FF,,NA,,NA,,NA,
+193,C1,Keypad F,RESERVED,FF,,NA,,NA,,NA,
+194,C2,Keypad XOR,RESERVED,FF,,NA,,NA,,NA,
+195,C3,Keypad ^,RESERVED,FF,,NA,,NA,,NA,
+196,C4,Keypad %,RESERVED,FF,,NA,,NA,,NA,
+197,C5,Keypad <,RESERVED,FF,,NA,,NA,,NA,
+198,C6,Keypad >,RESERVED,FF,,NA,,NA,,NA,
+199,C7,Keypad &,RESERVED,FF,,NA,,NA,,NA,
+200,C8,Keypad &&,RESERVED,FF,,NA,,NA,,NA,
+201,C9,Keypad |,RESERVED,FF,,NA,,NA,,NA,
+202,CA,Keypad ||,RESERVED,FF,,NA,,NA,,NA,
+203,CB,Keypad :,RESERVED,FF,,NA,,NA,,NA,
+204,CC,Keypad #,RESERVED,FF,,NA,,NA,,NA,
+205,CD,Keypad Space,RESERVED,FF,,NA,,NA,,NA,
+206,CE,Keypad @,RESERVED,FF,,NA,,NA,,NA,
+207,CF,Keypad !,RESERVED,FF,,NA,,NA,,NA,
+208,D0,Keypad Memory Store,RESERVED,FF,,NA,,NA,,NA,
+209,D1,Keypad Memory Recall,RESERVED,FF,,NA,,NA,,NA,
+210,D2,Keypad Memory Clear,RESERVED,FF,,NA,,NA,,NA,
+211,D3,Keypad Memory Add,RESERVED,FF,,NA,,NA,,NA,
+212,D4,Keypad Memory Subtract,RESERVED,FF,,NA,,NA,,NA,
+213,D5,Keypad Memory Multiply,RESERVED,FF,,NA,,NA,,NA,
+214,D6,Keypad Memory Divide,RESERVED,FF,,NA,,NA,,NA,
+215,D7,Keypad +/-,RESERVED,FF,,NA,,NA,,NA,
+216,D8,Keypad Clear,RESERVED,FF,,NA,,NA,,NA,
+217,D9,Keypad Clear Entry,RESERVED,FF,,NA,,NA,,NA,
+218,DA,Keypad Binary,RESERVED,FF,,NA,,NA,,NA,
+219,DB,Keypad Octal,RESERVED,FF,,NA,,NA,,NA,
+220,DC,Keypad Decimal,RESERVED,FF,,NA,,NA,,NA,
+221,DD,Keypad Hexadecimal,RESERVED,FF,,NA,,NA,,NA,
+222,DE,Reserved,RESERVED,FF,,NA,,NA,,NA,
+223,DF,Reserved,RESERVED,FF,,NA,,NA,,NA,
+224,E0,Keyboard LeftControl,1D,F1,?,LCtrl,,LCtrl,,LCtrl,
+225,E1,Keyboard LeftShift,2A,F1 01,?,LShift,,LShift,,LShift,
+226,E2,Keyboard LeftAlt,38,F1 02,?,LAlt,,LAlt,,LAlt,
+227,E3,Keyboard Left GUI,E0 5B,F1 03,?,LWin,,LWin,,LWin,
+228,E4,Keyboard RightControl,E0 1D,F1 04,?,RCtrl,,RCtrl,,RCtrl,
+229,E5,Keyboard RightShift,36,F1 05,?,RShift,,RShift,,RShift,
+230,E6,Keyboard RightAlt,E0 38,F1 06,?,RAlt,,RAlt,,RAlt,
+231,E7,Keyboard Right GUI,E0 5C,F1 07,?,RWin,,RWin,,RWin,
