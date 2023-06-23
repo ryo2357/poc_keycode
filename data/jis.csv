@@ -1,0 +1,121 @@
+1,半角/全角,-----,Keyboard Grave Accent and Tilde,07,35
+2,1 !,1 !,Keyboard 1 and !,07,1E
+3,"2 ""","2 """,Keyboard 2 and @,07,1F
+4,3 #,3 #,Keyboard 3 and #,07,20
+5,4 $,4 $,Keyboard 4 and $,07,21
+6,5 %,5 %,Keyboard 5 and %,07,22
+7,6 &,6 &,Keyboard 6 and ^,07,23
+8,7 ',7 ',Keyboard 7 and &,07,24
+9,8 (,8 (,Keyboard 8 and *,07,25
+10,9 ),9 ),Keyboard 9 and (,07,26
+11,0,0,Keyboard 0 and ),07,27
+12,- =,- =,Keyboard - and (underscore),07,2D
+13,^ ~,^ ~,Keyboard = and +,07,2E
+14,￥ ｜,￥ ｜,Keyboard International3,07,89
+15,Backspace,Delete,Keyboard DELETE (Backspace),07,2A
+16,Tab,Tab,Keyboard Tab,07,2B
+17,Q,Q,Keyboard q and Q,07,14
+18,W,W,Keyboard w and W,07,1A
+19,E,E,Keyboard e and E,07,08
+20,R,R,Keyboard r and R,07,15
+21,T,T,Keyboard t and T,07,17
+22,Y,Y,Keyboard y and Y,07,1C
+23,U,U,Keyboard u and U,07,18
+24,I,I,Keyboard i and I,07,0C
+25,O,O,Keyboard o and O,07,12
+26,P,P,Keyboard p and P,07,13
+27,@ `,@ `,Keyboard [ and {,07,2F
+28,[ {,[ {,Keyboard ] and },07,30
+29,-----,-----,Keyboard ＼ and |,07,31
+30,英数 Caps Lock,Caps Lock,Keyboard Caps Lock,07,39
+31,A,A,Keyboard a and A,07,04
+32,S,S,Keyboard s and S,07,16
+33,D,D,Keyboard d and D,07,07
+34,F,F,Keyboard f and F,07,09
+35,G,G,Keyboard g and G,07,0A
+36,H,H,Keyboard h and H,07,0B
+37,J,J,Keyboard j and J,07,0D
+38,K,K,Keyboard k and K,07,0E
+39,L,L,Keyboard l and L,07,0F
+40,; +,; +,Keyboard ; and :,07,33
+41,: *,: *,Keyboard ‘ and “,07,34
+42,] },] },Keyboard Non-US # and ~,07,32
+43,Enter,Return,Keyboard Return (ENTER),07,28
+44,Left Shift,Left Shift,Keyboard LeftShift,07,E1
+46,Z,Z,Keyboard z and Z,07,1D
+47,X,X,Keyboard x and X,07,1B
+48,C,C,Keyboard c and C,07,06
+49,V,V,Keyboard v and V,07,19
+50,B,B,Keyboard b and B,07,05
+51,N,N,Keyboard n and N,07,11
+52,M,M,Keyboard m and M,07,10
+53,", <",", <","Keyboard, and <",07,36
+54,. >,. >,Keyboard . and >,07,37
+55,/ ?,/ ?,"Keyboard , and ?",07,38
+56,＼ _,_,Keyboard International1,07,87
+57,Right Shift,Right Shift,Keyboard RightShift,07,E5
+58,Left Ctrl,Left Control,Keyboard LeftControl,07,E0
+60,Left Alt,Left Option,Keyboard LeftAlt,07,E2
+61,Spacebar,Spacebar,Keyboard Spacebar,07,2C
+62,Right Alt,Right Option,Keyboard RightAlt,07,E6
+64,Right Ctrl,Right Control,Keyboard RightControl,07,E4
+75,Insert,Help,Keyboard Insert,07,49
+76,Delete,Delete Forward,Keyboard Delete Forward,07,4C
+79,←,←,Keyboard LeftArrow,07,50
+80,Home,Home,Keyboard Home,07,4A
+81,End,End,Keyboard End,07,4D
+83,↑,↑,Keyboard UpArrow,07,52
+84,↓,↓,Keyboard DownArrow,07,51
+85,Page Up,Page Up,Keyboard PageUp,07,4B
+86,Page Down,Page Down,Keyboard PageDown,07,4E
+89,→,→,Keyboard RightArrow,07,4F
+90,Num Lock,Clear,Keypad Num Lock and Clear,07,53
+91,Keypad 7,Keypad 7,Keypad 7 and Home,07,5F
+92,Keypad 4,Keypad 4,Keypad 4 and Left Arrow,07,5C
+93,Keypad 1,Keypad 1,Keypad 1 and End,07,59
+95,Keypad /,Keypad /,Keypad /,07,54
+96,Keypad 8,Keypad 8,Keypad 8 and Up Arrow,07,60
+97,Keypad 5,Keypad 5,Keypad 5,07,5D
+98,Keypad 2,Keypad 2,Keypad 2 and Down Arrow,07,5A
+99,Keypad 0,Keypad 0,Keypad 0 and Insert,07,62
+100,Keypad *,Keypad *,Keypad *,07,55
+101,Keypad 9,Keypad 9,Keypad 9 and PageUp,07,61
+102,Keypad 6,Keypad 6,Keypad 6 and Right Arrow,07,5E
+103,Keypad 3,Keypad 3,Keypad 3 and PageDn,07,5B
+104,Keypad .,Keypad .,Keypad . and Delete,07,63
+105,Keypad -,Keypad -,Keypad -,07,56
+106,Keypad +,Keypad +,Keypad +,07,57
+108,Keypad Enter,Keypad Enter,Keypad ENTER,07,58
+110,Esc,Esc,Keyboard ESCAPE,07,29
+112,F1,F1,Keyboard F1,07,3A
+113,F2,F2,Keyboard F2,07,3B
+114,F3,F3,Keyboard F3,07,3C
+115,F4,F4,Keyboard F4,07,3D
+116,F5,F5,Keyboard F5,07,3E
+117,F6,F6,Keyboard F6,07,3F
+118,F7,F7,Keyboard F7,07,40
+119,F8,F8,Keyboard F8,07,41
+120,F9,F9,Keyboard F9,07,42
+121,F10,F10,Keyboard F10,07,43
+122,F11,F11,Keyboard F11,07,44
+123,F12,F12,Keyboard F12,07,45
+124,Print Screen,-----,Keyboard PrintScreen,07,46
+125,Scroll Lock,-----,Keyboard Scroll Lock,07,47
+126,Pause,-----,Keyboard Pause,07,48
+127,Left Windows,Left Command,Keyboard Left GUI,07,E3
+128,Right Windows,Right Command,Keyboard Right GUI,07,E7
+129,Application,-----,Keyboard Application,07,65
+131,無変換,-----,Keyboard International5,07,8B
+132,変換,-----,Keyboard International4,07,8A
+133,ひらがな カタカナ,-----,Keyboard International2,07,88
+300,-----,F13,Keyboard F13,07,68
+301,-----,F14,Keyboard F14,07,69
+302,-----,F15,Keyboard F15,07,6A
+303,-----,Keypad =,Keypad =,07,67
+304,-----,"Keypad , (Comma)",Keypad Comma,07,85
+305,-----,英数,Keyboard LANG2,07,91
+306,-----,かな カナ,Keyboard LANG1,07,90
+400,-----,Volume Decrement,Volume Decrement,0C,00EA
+401,-----,Volume Increment,Volume Increment,0C,00E9
+402,-----,Mute,Mute,0C,00E2
+403,-----,Eject,Eject,0C,00B8
